@@ -2,6 +2,6 @@
     "apple": {"calories": 52, "protein": 0.3, "fats": 0.2, "carbs": 14},
     "banana": {"calories": 89, "protein": 1.1, "fats": 0.3, "carbs": 23},
     "milk": {"calories": 42, "protein": 3.4, "fats": 1.0, "carbs": 5},
-    "rice": {"calories": 130, "protein": 2.7, "fats": 0.3, "carbs": 28},
+    "rice": {"calories": 130, "protein": 2.7, "fats": 0.3, "carbs": 27},
     "chicken": {"calories": 164, "protein": 31.0, "fats": 3.6, "carbs": 0}
 }
