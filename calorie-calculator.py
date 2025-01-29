@@ -50,10 +50,10 @@ def search_calories():
     nutrients = product.get("nutriments", {})
 
     # Fetch values or show "Data not available"
-    calories = nutrients.get("energy-kcal_100g", "Data not available")
-    protein = nutrients.get("proteins_100g", "Data not available")
-    fats = nutrients.get("fat_100g", "Data not available")
-    carbs = nutrients.get("carbohydrates_100g", "Data not available")
+    calories = nutrients.get("energy-kcal_100g", "Data not available") #calories
+    protein = nutrients.get("proteins_100g", "Data not available") #protein
+    fats = nutrients.get("fat_100g", "Data not available") #fats
+    carbs = nutrients.get("carbohydrates_100g", "Data not available") # carbo
 
     result_label.config(
         text=f"Calories: {calories} kcal\nProtein: {protein} g\nFats: {fats} g\nCarbs: {carbs} g"
